@@ -15,7 +15,7 @@ public class RemoveDuplicate {
                 nums[l++]= nums[r];
             }
         }
-        System.out.println(l );
+        System.out.println(l);
 
     }
 }
