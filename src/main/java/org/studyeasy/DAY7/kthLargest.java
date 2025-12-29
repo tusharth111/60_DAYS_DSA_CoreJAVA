@@ -35,7 +35,7 @@ public class kthLargest {
 
         sc.close();
     }
-
+    //Function to find the kth largest elements in the array  using Qucik Select
     public int findKthLargest(int[] nums, int k) {
         int targetIndex = nums.length - k;
         return quickSelect(nums, 0, nums.length - 1, targetIndex);
