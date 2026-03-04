@@ -18,7 +18,8 @@ public class Main {
     public static void main(String[] args) {
         String filepath = "src/lovely_bgm.wav";//this is the file path of the audio file
         File file = new File(filepath);// this is used to handle the worling with file
-        try(Scanner sc = new Scanner(System.in); AudioInputStream audioStream = AudioSystem.getAudioInputStream(file))// these are created in try block ..because we are telling the java to auto close these when we are done to not waste resources
+        try(Scanner sc = new Scanner(System.in);
+            AudioInputStream audioStream = AudioSystem.getAudioInputStream(file))// these are created in try block ..because we are telling the java to auto close these when we are done to not waste resources
         {
             Clip clip = AudioSystem.getClip();// this class is used to play the sound
             clip.open(audioStream);// this is used to open the audio file to play it

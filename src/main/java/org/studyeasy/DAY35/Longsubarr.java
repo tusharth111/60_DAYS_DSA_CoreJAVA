@@ -6,7 +6,8 @@ package org.studyeasy.DAY35;
  Created on:  22 1/22/2026 8:17 PM
  Project Name : 30Days_Java
  ***/
-public class Longsubarr {
+public class Longsubarr {// using two pointers to find the subarray
+
     static int longarr(int[]arr,int k){
         int  l =0,r =0,sum =0,maxlen = 0;
         while(r<arr.length-1){
