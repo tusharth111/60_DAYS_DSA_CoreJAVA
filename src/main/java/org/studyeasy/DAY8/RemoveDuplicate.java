@@ -7,15 +7,19 @@ package org.studyeasy.DAY8;
  Project Name : 30Days_Java
  ***/
 public class RemoveDuplicate {
-    public static void main(String[] args) {
+    public static void main(String[] args) {// we are using two pointers where one stay and other traverse the whole array multiple time
         int nums[] = {1,1,2,3,4,5,6};
         int l= 1;
         for (int r = 1; r < nums.length; r++) {
-            if(nums[r]!=nums[r-1]){
+            if(nums[r]!=nums[r-1])
+            {
                 nums[l++]= nums[r];
             }
         }
         System.out.println(l);
+        for(int i = 0;i<nums.length-1;i++){
+            System.out.print(nums[i]+" ");
+        }
 
     }
 }

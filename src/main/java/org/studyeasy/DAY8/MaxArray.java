@@ -20,7 +20,8 @@ public class MaxArray {
         }
         return max;
     }
-    static int maxRange(int arr[], int start, int end){
+    static int maxRange(int arr[], int start, int end)// we are using sliding window method
+    {
         if(start > end){
             return -1;
         }

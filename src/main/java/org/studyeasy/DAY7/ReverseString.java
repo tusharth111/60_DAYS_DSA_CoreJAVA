@@ -21,7 +21,7 @@ public class ReverseString {
         }
         StringBuilder reversed = new StringBuilder();
         while(!stack.isEmpty()){
-            reversed.append(stack.pop());
+            reversed.append(stack.pop());//anything the stack pop the reversed string is appended in
         }
         System.out.println( "Reverse : "+reversed);
     }

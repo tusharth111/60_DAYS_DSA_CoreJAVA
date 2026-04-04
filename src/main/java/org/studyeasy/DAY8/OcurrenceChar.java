@@ -23,8 +23,6 @@ public class OcurrenceChar {
             if(ch == c ){
                 count++;
             }
-
-
         }
         System.out.println("occurence of character : "+ c + "in string :"+ str+"is : "+ count);
     }

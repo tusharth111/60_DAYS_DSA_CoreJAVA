@@ -6,7 +6,7 @@ package org.studyeasy.DAY22;
  Created on:  06 1/6/2026 8:52 PM
  Project Name : 30Days_Java
  ***/
-public class MissingInArray {
+public class  MissingInArray {
     static int missing(int arr[]){
         int n = arr.length + 1;
 

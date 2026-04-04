@@ -7,7 +7,7 @@ package org.studyeasy.DAY2;
  Project Name : 30Days_Java
  ***/
 public class SimpleInterest {
-    int Principle;
+    int Principle;//GLOBAL VARIABLE
     int ROI;
     int Time;
 

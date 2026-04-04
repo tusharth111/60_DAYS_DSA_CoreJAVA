@@ -12,9 +12,11 @@ public class SwapNum {
         int b = 4;
         System.out.println("Before Swapping values  a = "+a+", b = "+b);
         // USING addition and Subtraction without temp variable//
-        /*a = a+b;//a = 3+4 = 7
+        /*
+        a = a+b;//a = 3+4 = 7
         b = a-b;//b = 7-4 = 3
-        a = a-b;//a = 7-3 = 4*/
+        a = a-b;//a = 7-3 = 4
+        */
         //Using XOR (bit manipulation )
         a  = a ^ b;
         b =  a ^ b;
