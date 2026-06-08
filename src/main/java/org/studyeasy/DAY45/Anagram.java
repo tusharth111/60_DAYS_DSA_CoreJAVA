@@ -26,7 +26,7 @@ public class Anagram {
 
         //Reduce the frequencey if the second string have the same character
         for(char c : t.toCharArray()){
-            if(!map.containsKey(c)){
+            if(!map.containsKey(c)){// when the char is not in the hashmap subtract by 1
                 System.out.println("false");
                 return;
             }
