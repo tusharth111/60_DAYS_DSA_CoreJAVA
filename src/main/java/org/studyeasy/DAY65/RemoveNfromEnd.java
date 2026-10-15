@@ -49,7 +49,7 @@ public class RemoveNfromEnd {
         //then we can remove the nth node which is at the fast pointer
         slow.next = slow.next.next;
 
-
+        // to print the value of the linked list
         Node current = dummy.next;
         while (current != null) {
             System.out.print(current.data + " -> ");
